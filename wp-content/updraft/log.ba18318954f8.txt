@@ -1,0 +1,193 @@
+0000.003 (0) Opened log file at time: Fri, 27 Apr 2018 17:44:15 +0000 on http://pinsk
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 31.3M | 31.8M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 146915.9 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.119 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1524753327, seconds_ago=97728)
+0000.123 (0) Set semaphore last lock (fd) time to 2018-04-27 17:44:15
+0000.125 (0) Semaphore lock (fd) complete
+0000.134 (0) Backup run: resumption=0, nonce=ba18318954f8, begun at=1524851055 (0s ago), job type=backup
+0000.138 (0) Scheduling a resumption (1) after 300 seconds (1524851355) in case this run gets aborted
+0000.189 (0) Checking if we have a zip executable available
+0000.193 (0) Creation of backups of directories: beginning
+0000.204 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.545 (0) Total entities for the zip file: 275 directories, 1667 files (0 skipped as non-modified), 22.8 MB
+0005.554 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.758 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 100 files added (on-disk size: 50.7 KB)
+0005.920 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 200 files added (on-disk size: 50.7 KB)
+0006.053 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 300 files added (on-disk size: 50.7 KB)
+0006.186 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 400 files added (on-disk size: 50.7 KB)
+0006.332 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 500 files added (on-disk size: 50.7 KB)
+0006.382 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.3 MB, 1667 files batched, 501 (502) added so far); re-opening (prior size: 50.7 KB)
+0015.620 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 600 files added (on-disk size: 3425.8 KB)
+0015.755 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 700 files added (on-disk size: 3425.8 KB)
+0015.894 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 800 files added (on-disk size: 3425.8 KB)
+0016.028 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 900 files added (on-disk size: 3425.8 KB)
+0016.161 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1000 files added (on-disk size: 3425.8 KB)
+0016.170 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.7 MB, 1667 files batched, 501 (1003) added so far); re-opening (prior size: 3425.8 KB)
+0024.064 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1100 files added (on-disk size: 6288.1 KB)
+0024.408 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1200 files added (on-disk size: 6288.1 KB)
+0024.590 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1300 files added (on-disk size: 6288.1 KB)
+0024.928 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1400 files added (on-disk size: 6288.1 KB)
+0025.205 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1500 files added (on-disk size: 6288.1 KB)
+0025.213 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.3 MB, 1667 files batched, 501 (1504) added so far); re-opening (prior size: 6288.1 KB)
+0030.201 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip.tmp: 1600 files added (on-disk size: 7049.1 KB)
+0031.767 (0) Created plugins zip (0) - 7202.5 KB in 31.2 s (230.7 KB/s) (sha1: 22f21ac8802c27037989949bd85374176825d212, sha256: 009a5d8eaf52c3abd37ee26fcc2222275a5178797cff4687e10328a149349d7a)
+0031.780 (0) Beginning creation of dump of themes (split every: 400 MB)
+0032.165 (0) Total entities for the zip file: 43 directories, 231 files (0 skipped as non-modified), 5 MB
+0032.397 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0032.641 (0) Zip: backup_2018-04-27-2044_pinskview_ba18318954f8-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0035.369 (0) Created themes zip (0) - 3316.4 KB in 3.6 s (931.3 KB/s) (sha1: 70ce1a445a1da6d1dc425ca23a7de8ba834e23c6, sha256: 283c37897aa79df410d18ca25bb43b4692979cd8883afd0f6718b2a17d011d51)
+0035.385 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0035.387 (0) Looking for candidates to back up in: C:\OpenServer\domains\pinsk/wp-content/uploads
+0035.390 (0) finding files: 2018: adding to list (1)
+0035.392 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0035.568 (0) Total entities for the zip file: 3 directories, 28 files (0 skipped as non-modified), 1.4 MB
+0036.510 (0) Created uploads zip (0) - 1301.4 KB in 1.1 s (1201.9 KB/s) (sha1: ec48d2ab5fd9ecc927085015c77fde95729b6e5f, sha256: 6ac77f946f99a2169018187e11cb2fe618705858d289faaeeea9c8f4b94ca9b9)
+0036.523 (0) Beginning backup of other directories found in the content directory (index: 0)
+0036.525 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0036.527 (0) Looking for candidates to back up in: C:\OpenServer\domains\pinsk/wp-content
+0036.530 (0) finding files: index.php: adding to list (1)
+0036.532 (0) finding files: languages: adding to list (2)
+0036.534 (0) finding files: plugins: skipping: this is the plugins directory
+0036.536 (0) finding files: themes: skipping: this is the themes directory
+0036.538 (0) finding files: updraft: skipping: this is the updraft directory
+0036.540 (0) finding files: upgrade: skipping: excluded by options
+0036.541 (0) finding files: uploads: skipping: this is the uploads directory
+0036.641 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 2.2 MB
+0037.386 (0) Created others zip (0) - 573.2 KB in 0.8 s (710.2 KB/s) (sha1: e470e07161c238f2cbeb535bd9bf4051a8a3c3c1, sha256: 14dbb1803b315d17687ee4486c698d2652dc29c3a5a93cca26abd1834722a3e7)
+0037.422 (0) Saving backup status to database (elements: 8)
+0037.428 (0) Beginning creation of database dump (WordPress DB)
+0037.583 (0) Table wp_options: Total expected rows (approximate): 267
+0037.637 (0) Table wp_options: Total rows added: 229 in 0.05 seconds
+0037.658 (0) Table wp_options: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_options.table.gz - 11 KB)
+0037.713 (0) Table wp_users: Total expected rows (approximate): 5
+0037.732 (0) Table wp_users: Total rows added: 5 in 0.02 seconds
+0037.736 (0) Table wp_users: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_users.table.gz - 0.9 KB)
+0037.751 (0) Table wp_usermeta: Total expected rows (approximate): 102
+0037.767 (0) Table wp_usermeta: Total rows added: 102 in 0.01 seconds
+0037.770 (0) Table wp_usermeta: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_usermeta.table.gz - 2.1 KB)
+0037.793 (0) Table wp_commentmeta: Total expected rows (approximate): 30
+0037.807 (0) Table wp_commentmeta: Total rows added: 30 in 0.01 seconds
+0037.810 (0) Table wp_commentmeta: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_commentmeta.table.gz - 1.1 KB)
+0037.829 (0) Table wp_comments: Total expected rows (approximate): 46
+0037.849 (0) Table wp_comments: Total rows added: 46 in 0.02 seconds
+0037.853 (0) Table wp_comments: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_comments.table.gz - 2.2 KB)
+0037.875 (0) Table wp_links: Total expected rows (approximate): 0
+0037.889 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0037.892 (0) Table wp_links: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_links.table.gz - 0.4 KB)
+0037.905 (0) Table wp_postmeta: Total expected rows (approximate): 397
+0037.934 (0) Table wp_postmeta: Total rows added: 354 in 0.03 seconds
+0037.944 (0) Table wp_postmeta: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_postmeta.table.gz - 5.5 KB)
+0037.983 (0) Table wp_posts: Total expected rows (approximate): 135
+0038.038 (0) Table wp_posts: Total rows added: 150 in 0.05 seconds
+0038.042 (0) Table wp_posts: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_posts.table.gz - 12.4 KB)
+0038.069 (0) Table wp_term_relationships: Total expected rows (approximate): 64
+0038.083 (0) Table wp_term_relationships: Total rows added: 64 in 0.01 seconds
+0038.088 (0) Table wp_term_relationships: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0038.484 (0) Table wp_term_taxonomy: Total expected rows (approximate): 15
+0038.501 (0) Table wp_term_taxonomy: Total rows added: 15 in 0.01 seconds
+0038.504 (0) Table wp_term_taxonomy: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0038.518 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0038.533 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0038.536 (0) Table wp_termmeta: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_termmeta.table.gz - 0.3 KB)
+0038.550 (0) Table wp_terms: Total expected rows (approximate): 15
+0038.563 (0) Table wp_terms: Total rows added: 15 in 0.01 seconds
+0038.566 (0) Table wp_terms: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_terms.table.gz - 0.7 KB)
+0038.580 (0) Table wp_ratings: Total expected rows (approximate): 5
+0038.597 (0) Table wp_ratings: Total rows added: 5 in 0.01 seconds
+0038.600 (0) Table wp_ratings: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_ratings.table.gz - 0.7 KB)
+0038.625 (0) Table wp_ulogin: Total expected rows (approximate): 0
+0038.652 (0) Table wp_ulogin: Total rows added: 0 in 0.02 seconds
+0038.655 (0) Table wp_ulogin: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_ulogin.table.gz - 0.3 KB)
+0038.725 (0) Table wp_upb_field: Total expected rows (approximate): 0
+0038.736 (0) Table wp_upb_field: Total rows added: 0 in 0.01 seconds
+0038.740 (0) Table wp_upb_field: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_field.table.gz - 0.3 KB)
+0038.754 (0) Table wp_upb_fields: Total expected rows (approximate): 0
+0038.768 (0) Table wp_upb_fields: Total rows added: 0 in 0.01 seconds
+0038.771 (0) Table wp_upb_fields: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_fields.table.gz - 0.4 KB)
+0038.837 (0) Table wp_upb_group: Total expected rows (approximate): 0
+0038.855 (0) Table wp_upb_group: Total rows added: 0 in 0.02 seconds
+0038.859 (0) Table wp_upb_group: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_group.table.gz - 0.3 KB)
+0038.892 (0) Table wp_upb_option: Total expected rows (approximate): 40
+0038.908 (0) Table wp_upb_option: Total rows added: 40 in 0.01 seconds
+0038.912 (0) Table wp_upb_option: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_option.table.gz - 0.8 KB)
+0038.938 (0) Table wp_upb_values: Total expected rows (approximate): 0
+0038.956 (0) Table wp_upb_values: Total rows added: 0 in 0.01 seconds
+0038.981 (0) Table wp_upb_values: finishing file (backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_values.table.gz - 0.3 KB)
+0038.999 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_options.table.gz (1/19): adding to final database dump
+0039.005 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_users.table.gz (2/19): adding to final database dump
+0039.012 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_usermeta.table.gz (3/19): adding to final database dump
+0039.016 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_commentmeta.table.gz (4/19): adding to final database dump
+0039.019 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_comments.table.gz (5/19): adding to final database dump
+0039.023 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_links.table.gz (6/19): adding to final database dump
+0039.026 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_postmeta.table.gz (7/19): adding to final database dump
+0039.033 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_posts.table.gz (8/19): adding to final database dump
+0039.043 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_term_relationships.table.gz (9/19): adding to final database dump
+0039.046 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_term_taxonomy.table.gz (10/19): adding to final database dump
+0039.049 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_termmeta.table.gz (11/19): adding to final database dump
+0039.051 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_terms.table.gz (12/19): adding to final database dump
+0039.054 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_ratings.table.gz (13/19): adding to final database dump
+0039.056 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_ulogin.table.gz (14/19): adding to final database dump
+0039.059 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_field.table.gz (15/19): adding to final database dump
+0039.062 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_fields.table.gz (16/19): adding to final database dump
+0039.065 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_group.table.gz (17/19): adding to final database dump
+0039.067 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_option.table.gz (18/19): adding to final database dump
+0039.070 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db-table-wp_upb_values.table.gz (19/19): adding to final database dump
+0039.074 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db.gz: finished writing out complete database file (24 KB)
+0039.103 (0) Total database tables backed up: 19 (backup_2018-04-27-2044_pinskview_ba18318954f8-db.gz, size: 36811, sha256)
+0039.119 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0039.122 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0039.125 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0039.127 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-others.zip: others: This file has not yet been successfully uploaded: will queue
+0039.130 (0) backup_2018-04-27-2044_pinskview_ba18318954f8-db.gz: db: This file has not yet been successfully uploaded: will queue
+0039.132 (0) Saving backup history. Total backup size: 12.1 MB
+0039.138 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0039.145 (0) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+0039.147 (0) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+0039.149 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0039.151 (0) An error condition has occurred for the first time during this job
+0039.155 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0039.159 (0) Number of backup sets in history: 3; groups (db): 1
+0039.161 (0) Examining (for databases) backup set with group_id=0, nonce=ba18318954f8, datestamp=1524851055 (Apr 27 2018 17:44:15)
+0039.163 (0) This backup set is the backup set just made, so will not be deleted.
+0039.163 (0) Examining (for databases) backup set with group_id=0, nonce=d43b308f8091, datestamp=1524753327 (Apr 26 2018 14:35:27)
+0039.164 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.165 (0) Examining (for databases) backup set with group_id=0, nonce=0fe545cba932, datestamp=1524727710 (Apr 26 2018 07:28:30)
+0039.165 (0) 1524727710: db: this set includes a database (backup_2018-04-26-1028_pinskview_0fe545cba932-db.gz); db count is now 2
+0039.165 (0) 1524727710: db: over retain limit (2); will delete this database
+0039.166 (0) Delete file: backup_2018-04-26-1028_pinskview_0fe545cba932-db.gz, service=onedrive
+0039.168 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0039.171 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0039.173 (0) Number of backup sets in history: 3; groups (files): 1
+0039.175 (0) Examining (for files) backup set with nonce=ba18318954f8, datestamp=1524851055 (Apr 27 2018 17:44:15)
+0039.175 (0) This backup set is the backup set just made, so will not be deleted.
+0039.177 (0) This backup set is the backup set just made, so will not be deleted.
+0039.177 (0) This backup set is the backup set just made, so will not be deleted.
+0039.178 (0) This backup set is the backup set just made, so will not be deleted.
+0039.178 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.180 (0) Examining (for files) backup set with nonce=d43b308f8091, datestamp=1524753327 (Apr 26 2018 14:35:27)
+0039.180 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0039.181 (0) Examining (for files) backup set with nonce=0fe545cba932, datestamp=1524727710 (Apr 26 2018 07:28:30)
+0039.181 (0) plugins: over retain limit (2); will delete this file entity
+0039.181 (0) themes: over retain limit (2); will delete this file entity
+0039.181 (0) uploads: over retain limit (2); will delete this file entity
+0039.181 (0) others: over retain limit (2); will delete this file entity
+0039.181 (0) Delete file: backup_2018-04-26-1028_pinskview_313b8e395f00-plugins.zip, service=onedrive
+0039.183 (0) Deleting local copy (backup_2018-04-26-1028_pinskview_313b8e395f00-plugins.zip)
+0039.186 (0) Delete file: backup_2018-04-26-1028_pinskview_313b8e395f00-themes.zip, service=onedrive
+0039.189 (0) Deleting local copy (backup_2018-04-26-1028_pinskview_313b8e395f00-themes.zip)
+0039.192 (0) Delete file: backup_2018-04-26-1028_pinskview_313b8e395f00-uploads.zip, service=onedrive
+0039.195 (0) Deleting local copy (backup_2018-04-26-1028_pinskview_313b8e395f00-uploads.zip)
+0039.197 (0) Delete file: backup_2018-04-26-1028_pinskview_313b8e395f00-others.zip, service=onedrive
+0039.200 (0) Deleting local copy (backup_2018-04-26-1028_pinskview_313b8e395f00-others.zip)
+0039.203 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0039.207 (0) This backup set is now empty; will remove from history
+0039.210 (0) Deleting log file (log.0fe545cba932.txt)
+0039.212 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0039.219 (0) Resume backup (ba18318954f8, 0): finish run
+0039.224 (0) Decremented the semaphore (fd) by 1
+0039.227 (0) Semaphore (fd) unlocked
+0039.261 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0039.266 (0) Rescheduling resumption 1: moving to 120 seconds from now (1524851215)
+0039.270 (0) Резервное копирование не завершено; повторная попытка запланирована

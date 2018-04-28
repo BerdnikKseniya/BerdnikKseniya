@@ -1,0 +1,548 @@
+0000.015 (0) Opened log file at time: Thu, 12 Apr 2018 14:35:52 +0000 on http://pinsk
+0000.020 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 148130.6 MB
+0000.032 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.035 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.081 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1523457421, seconds_ago=86331)
+0000.086 (0) Set semaphore last lock (fd) time to 2018-04-12 14:35:52
+0000.087 (0) Semaphore lock (fd) complete
+0000.117 (0) Backup run: resumption=0, nonce=6fe152786d05, begun at=1523543752 (0s ago), job type=backup
+0000.121 (0) Scheduling a resumption (1) after 300 seconds (1523544052) in case this run gets aborted
+0000.175 (0) Checking if we have a zip executable available
+0000.182 (0) Creation of backups of directories: beginning
+0000.197 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0005.395 (0) Total entities for the zip file: 275 directories, 1710 files (0 skipped as non-modified), 23.2 MB
+0005.422 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0005.671 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 100 files added (on-disk size: 50.7 KB)
+0005.863 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 200 files added (on-disk size: 50.7 KB)
+0006.069 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 300 files added (on-disk size: 50.7 KB)
+0006.208 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 400 files added (on-disk size: 50.7 KB)
+0006.385 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 500 files added (on-disk size: 50.7 KB)
+0006.391 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.1 MB, 1710 files batched, 501 (502) added so far); re-opening (prior size: 50.7 KB)
+0011.414 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 600 files added (on-disk size: 2636.1 KB)
+0011.526 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 700 files added (on-disk size: 2636.1 KB)
+0011.643 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 800 files added (on-disk size: 2636.1 KB)
+0011.764 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 900 files added (on-disk size: 2636.1 KB)
+0011.882 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1000 files added (on-disk size: 2636.1 KB)
+0011.888 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14 MB, 1710 files batched, 501 (1003) added so far); re-opening (prior size: 2636.1 KB)
+0019.416 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1100 files added (on-disk size: 6535 KB)
+0019.547 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1200 files added (on-disk size: 6535 KB)
+0019.677 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1300 files added (on-disk size: 6535 KB)
+0019.809 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1400 files added (on-disk size: 6535 KB)
+0019.939 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1500 files added (on-disk size: 6535 KB)
+0019.947 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (2.5 MB, 1710 files batched, 501 (1504) added so far); re-opening (prior size: 6535 KB)
+0024.809 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1600 files added (on-disk size: 7422 KB)
+0024.932 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip.tmp: 1700 files added (on-disk size: 7422 KB)
+0026.381 (0) Created plugins zip (0) - 7621.1 KB in 26 s (293.1 KB/s) (sha1: f313cfdf1c679c2e79f89ed8efddc0f463280689, sha256: 4fc44b967846d2ed1be31dd2c6c0fd7b68309f662ab5ed9eb06b976dcc77e995)
+0026.392 (0) Beginning creation of dump of themes (split every: 400 MB)
+0026.854 (0) Total entities for the zip file: 43 directories, 224 files (0 skipped as non-modified), 4.7 MB
+0026.967 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.071 (0) Zip: backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0029.741 (0) Created themes zip (0) - 3117.4 KB in 3.3 s (936.2 KB/s) (sha1: 819c44298f322b77a2d4109e427b5751f15a1e90, sha256: abee6ebcfaac2d1b5d6102cc26c24534592621882e73973a6b1318a761f5d9ce)
+0029.751 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0029.753 (0) Looking for candidates to back up in: C:\OpenServer\domains\pinsk/wp-content/uploads
+0029.756 (0) finding files: 2018: adding to list (1)
+0029.757 (0) finding files: userphoto: adding to list (2)
+0029.759 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0029.917 (0) Total entities for the zip file: 4 directories, 10 files (0 skipped as non-modified), 0.2 MB
+0030.132 (0) Created uploads zip (0) - 240.8 KB in 0.4 s (678.3 KB/s) (sha1: 57fe390f183d43b669aa1ce52ba63906dd6e670c, sha256: b4a5aad75646e7d81566601ced334245c896e58fc0836f8b794fc13f244cc707)
+0030.144 (0) Beginning backup of other directories found in the content directory (index: 0)
+0030.147 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0030.149 (0) Looking for candidates to back up in: C:\OpenServer\domains\pinsk/wp-content
+0030.151 (0) finding files: index.php: adding to list (1)
+0030.153 (0) finding files: languages: adding to list (2)
+0030.155 (0) finding files: plugins: skipping: this is the plugins directory
+0030.159 (0) finding files: themes: skipping: this is the themes directory
+0030.162 (0) finding files: updraft: skipping: this is the updraft directory
+0030.164 (0) finding files: upgrade: skipping: excluded by options
+0030.166 (0) finding files: uploads: skipping: this is the uploads directory
+0030.347 (0) Total entities for the zip file: 3 directories, 19 files (0 skipped as non-modified), 2.2 MB
+0031.240 (0) Created others zip (0) - 573.2 KB in 1 s (556.3 KB/s) (sha1: 37de36e7b29d68daba9deaa33b87f90580efd913, sha256: 5ca0b6fd0b975b4b810a0667002821557c3a7bcbf4c3bae6078e6dd904278ea9)
+0031.259 (0) Saving backup status to database (elements: 8)
+0031.265 (0) Beginning creation of database dump (WordPress DB)
+0031.598 (0) Table wp_options: Total expected rows (approximate): 179
+0031.664 (0) Table wp_options: Total rows added: 233 in 0.06 seconds
+0031.669 (0) Table wp_options: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_options.table.gz - 11.1 KB)
+0031.681 (0) Table wp_users: Total expected rows (approximate): 5
+0031.693 (0) Table wp_users: Total rows added: 5 in 0.01 seconds
+0031.697 (0) Table wp_users: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_users.table.gz - 0.8 KB)
+0031.718 (0) Table wp_usermeta: Total expected rows (approximate): 100
+0031.745 (0) Table wp_usermeta: Total rows added: 100 in 0.01 seconds
+0031.749 (0) Table wp_usermeta: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_usermeta.table.gz - 1.9 KB)
+0031.762 (0) Table wp_commentmeta: Total expected rows (approximate): 25
+0031.787 (0) Table wp_commentmeta: Total rows added: 25 in 0.02 seconds
+0031.792 (0) Table wp_commentmeta: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_commentmeta.table.gz - 1.1 KB)
+0031.814 (0) Table wp_comments: Total expected rows (approximate): 45
+0031.858 (0) Table wp_comments: Total rows added: 45 in 0.04 seconds
+0031.862 (0) Table wp_comments: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_comments.table.gz - 2.2 KB)
+0031.890 (0) Table wp_links: Total expected rows (approximate): 0
+0031.906 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0031.910 (0) Table wp_links: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_links.table.gz - 0.4 KB)
+0031.924 (0) Table wp_postmeta: Total expected rows (approximate): 329
+0031.951 (0) Table wp_postmeta: Total rows added: 314 in 0.03 seconds
+0031.955 (0) Table wp_postmeta: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_postmeta.table.gz - 4.3 KB)
+0031.969 (0) Table wp_posts: Total expected rows (approximate): 117
+0032.014 (0) Table wp_posts: Total rows added: 126 in 0.04 seconds
+0032.019 (0) Table wp_posts: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_posts.table.gz - 8.1 KB)
+0032.033 (0) Table wp_term_relationships: Total expected rows (approximate): 63
+0032.047 (0) Table wp_term_relationships: Total rows added: 63 in 0.01 seconds
+0032.051 (0) Table wp_term_relationships: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0032.062 (0) Table wp_term_taxonomy: Total expected rows (approximate): 15
+0032.075 (0) Table wp_term_taxonomy: Total rows added: 15 in 0.01 seconds
+0032.078 (0) Table wp_term_taxonomy: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0032.090 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0032.101 (0) Table wp_termmeta: Total rows added: 0 in 0.01 seconds
+0032.104 (0) Table wp_termmeta: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_termmeta.table.gz - 0.3 KB)
+0032.116 (0) Table wp_terms: Total expected rows (approximate): 15
+0032.128 (0) Table wp_terms: Total rows added: 15 in 0.01 seconds
+0032.131 (0) Table wp_terms: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_terms.table.gz - 0.7 KB)
+0032.142 (0) Table wp_ratings: Total expected rows (approximate): 5
+0032.155 (0) Table wp_ratings: Total rows added: 5 in 0.01 seconds
+0032.158 (0) Table wp_ratings: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_ratings.table.gz - 0.7 KB)
+0032.185 (0) Table wp_ulogin: Total expected rows (approximate): 0
+0032.197 (0) Table wp_ulogin: Total rows added: 0 in 0.01 seconds
+0032.200 (0) Table wp_ulogin: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_ulogin.table.gz - 0.3 KB)
+0032.239 (0) Table wp_upb_field: Total expected rows (approximate): 0
+0032.252 (0) Table wp_upb_field: Total rows added: 0 in 0.01 seconds
+0032.255 (0) Table wp_upb_field: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_field.table.gz - 0.3 KB)
+0032.271 (0) Table wp_upb_fields: Total expected rows (approximate): 0
+0032.285 (0) Table wp_upb_fields: Total rows added: 0 in 0.01 seconds
+0032.288 (0) Table wp_upb_fields: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_fields.table.gz - 0.4 KB)
+0032.316 (0) Table wp_upb_group: Total expected rows (approximate): 0
+0032.329 (0) Table wp_upb_group: Total rows added: 0 in 0.01 seconds
+0032.332 (0) Table wp_upb_group: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_group.table.gz - 0.3 KB)
+0032.346 (0) Table wp_upb_option: Total expected rows (approximate): 40
+0032.360 (0) Table wp_upb_option: Total rows added: 40 in 0.01 seconds
+0032.364 (0) Table wp_upb_option: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_option.table.gz - 0.8 KB)
+0032.394 (0) Table wp_upb_values: Total expected rows (approximate): 0
+0032.407 (0) Table wp_upb_values: Total rows added: 0 in 0.01 seconds
+0032.410 (0) Table wp_upb_values: finishing file (backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_values.table.gz - 0.3 KB)
+0032.422 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_options.table.gz (1/19): adding to final database dump
+0032.435 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_users.table.gz (2/19): adding to final database dump
+0032.439 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_usermeta.table.gz (3/19): adding to final database dump
+0032.443 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_commentmeta.table.gz (4/19): adding to final database dump
+0032.447 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_comments.table.gz (5/19): adding to final database dump
+0032.452 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_links.table.gz (6/19): adding to final database dump
+0032.455 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_postmeta.table.gz (7/19): adding to final database dump
+0032.461 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_posts.table.gz (8/19): adding to final database dump
+0032.469 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_term_relationships.table.gz (9/19): adding to final database dump
+0032.472 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_term_taxonomy.table.gz (10/19): adding to final database dump
+0032.475 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_termmeta.table.gz (11/19): adding to final database dump
+0032.478 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_terms.table.gz (12/19): adding to final database dump
+0032.482 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_ratings.table.gz (13/19): adding to final database dump
+0032.485 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_ulogin.table.gz (14/19): adding to final database dump
+0032.488 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_field.table.gz (15/19): adding to final database dump
+0032.490 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_fields.table.gz (16/19): adding to final database dump
+0032.494 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_group.table.gz (17/19): adding to final database dump
+0032.496 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_option.table.gz (18/19): adding to final database dump
+0032.500 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db-table-wp_upb_values.table.gz (19/19): adding to final database dump
+0032.504 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: finished writing out complete database file (24 KB)
+0032.531 (0) Total database tables backed up: 19 (backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz, size: 30982, sha256)
+0032.546 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0032.549 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0032.551 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0032.553 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+0032.556 (0) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+0032.558 (0) Saving backup history. Total backup size: 11.3 MB
+0032.564 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0032.580 (0) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+0032.583 (0) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+0032.585 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0032.587 (0) An error condition has occurred for the first time during this job
+0032.591 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0032.594 (0) Number of backup sets in history: 3; groups (db): 1
+0032.596 (0) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+0032.597 (0) This backup set is the backup set just made, so will not be deleted.
+0032.598 (0) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+0032.598 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.599 (0) Examining (for databases) backup set with group_id=0, nonce=6f9918d8007f, datestamp=1523370974 (Apr 10 2018 14:36:14)
+0032.599 (0) 1523370974: db: this set includes a database (backup_2018-04-10-1736_pinskview_6f9918d8007f-db.gz); db count is now 2
+0032.600 (0) 1523370974: db: over retain limit (2); will delete this database
+0032.600 (0) Delete file: backup_2018-04-10-1736_pinskview_6f9918d8007f-db.gz, service=onedrive
+0032.602 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0032.606 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0032.607 (0) Number of backup sets in history: 3; groups (files): 1
+0032.643 (0) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+0032.643 (0) This backup set is the backup set just made, so will not be deleted.
+0032.645 (0) This backup set is the backup set just made, so will not be deleted.
+0032.646 (0) This backup set is the backup set just made, so will not be deleted.
+0032.646 (0) This backup set is the backup set just made, so will not be deleted.
+0032.647 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.649 (0) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+0032.649 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0032.650 (0) Examining (for files) backup set with nonce=6f9918d8007f, datestamp=1523370974 (Apr 10 2018 14:36:14)
+0032.650 (0) plugins: over retain limit (2); will delete this file entity
+0032.650 (0) themes: over retain limit (2); will delete this file entity
+0032.650 (0) uploads: over retain limit (2); will delete this file entity
+0032.650 (0) others: over retain limit (2); will delete this file entity
+0032.650 (0) Delete file: backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-plugins.zip, service=onedrive
+0032.653 (0) Deleting local copy (backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-plugins.zip)
+0032.656 (0) Delete file: backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-themes.zip, service=onedrive
+0032.662 (0) Deleting local copy (backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-themes.zip)
+0032.665 (0) Delete file: backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-uploads.zip, service=onedrive
+0032.668 (0) Deleting local copy (backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-uploads.zip)
+0032.671 (0) Delete file: backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-others.zip, service=onedrive
+0032.674 (0) Deleting local copy (backup_2018-04-10-1736_pinskview_0ad2fbad6ae0-others.zip)
+0032.676 (0) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0032.681 (0) This backup set is now empty; will remove from history
+0032.684 (0) Deleting log file (log.6f9918d8007f.txt)
+0032.687 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0032.693 (0) Resume backup (6fe152786d05, 0): finish run
+0032.698 (0) Decremented the semaphore (fd) by 1
+0032.701 (0) Semaphore (fd) unlocked
+0032.702 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0032.708 (0) Rescheduling resumption 1: moving to 120 seconds from now (1523543904)
+0032.712 (0) Резервное копирование не завершено; повторная попытка запланирована
+0656.925 (1) Opened log file at time: Thu, 12 Apr 2018 14:46:49 +0000 on http://pinsk
+0656.928 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0656.930 (1) Free space on disk containing Updraft's temporary directory: 148131 MB
+0656.934 (1) Backup run: resumption=1, nonce=6fe152786d05, begun at=1523543752 (657s ago), job type=backup, previous check-in=32.7s
+0656.939 (1) Scheduling a resumption (2) after 300 seconds (1523544709) in case this run gets aborted
+0656.974 (1) Checking if we have a zip executable available
+0656.977 (1) Creation of backups of directories: already finished
+0656.981 (1) Saving backup status to database (elements: 8)
+0656.998 (1) Database dump (WordPress DB): Creation was completed already
+0657.010 (1) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0657.013 (1) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0657.015 (1) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0657.017 (1) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+0657.019 (1) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+0657.021 (1) Saving backup history. Total backup size: 11.3 MB
+0657.027 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0657.031 (1) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+0657.038 (1) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+0657.041 (1) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+0657.048 (1) An error condition has occurred for the first time during this job
+0657.053 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0657.057 (1) Number of backup sets in history: 2; groups (db): 1
+0657.059 (1) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+0657.061 (1) This backup set is the backup set just made, so will not be deleted.
+0657.061 (1) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+0657.061 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.063 (1) Number of backup sets in history: 2; groups (files): 1
+0657.065 (1) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+0657.065 (1) This backup set is the backup set just made, so will not be deleted.
+0657.067 (1) This backup set is the backup set just made, so will not be deleted.
+0657.068 (1) This backup set is the backup set just made, so will not be deleted.
+0657.068 (1) This backup set is the backup set just made, so will not be deleted.
+0657.068 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.070 (1) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+0657.071 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.071 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0657.077 (1) Resume backup (6fe152786d05, 1): finish run
+0657.079 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0657.085 (1) Резервное копирование не завершено; повторная попытка запланирована
+1018.628 (2) Opened log file at time: Thu, 12 Apr 2018 14:52:50 +0000 on http://pinsk
+1018.630 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1018.633 (2) Free space on disk containing Updraft's temporary directory: 148130.9 MB
+1018.637 (2) Backup run: resumption=2, nonce=6fe152786d05, begun at=1523543752 (1018s ago), job type=backup
+1018.640 (2) Scheduling a resumption (3) after 300 seconds (1523545070) in case this run gets aborted
+1018.680 (2) Checking if we have a zip executable available
+1018.683 (2) Creation of backups of directories: already finished
+1018.687 (2) Saving backup status to database (elements: 8)
+1018.697 (2) Database dump (WordPress DB): Creation was completed already
+1018.708 (2) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1018.710 (2) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1018.712 (2) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1018.714 (2) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+1018.716 (2) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+1018.718 (2) Saving backup history. Total backup size: 11.3 MB
+1018.724 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+1018.728 (2) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+1018.730 (2) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+1018.732 (2) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+1018.734 (2) An error condition has occurred for the first time during this job
+1018.737 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1018.740 (2) Number of backup sets in history: 2; groups (db): 1
+1018.742 (2) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1018.744 (2) This backup set is the backup set just made, so will not be deleted.
+1018.744 (2) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1018.744 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1018.746 (2) Number of backup sets in history: 2; groups (files): 1
+1018.747 (2) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1018.747 (2) This backup set is the backup set just made, so will not be deleted.
+1018.749 (2) This backup set is the backup set just made, so will not be deleted.
+1018.749 (2) This backup set is the backup set just made, so will not be deleted.
+1018.750 (2) This backup set is the backup set just made, so will not be deleted.
+1018.750 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1018.752 (2) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1018.752 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1018.753 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1018.757 (2) Resume backup (6fe152786d05, 2): finish run
+1018.761 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1018.765 (2) Резервное копирование не завершено; повторная попытка запланирована
+1391.780 (3) Opened log file at time: Thu, 12 Apr 2018 14:59:03 +0000 on http://pinsk
+1391.783 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1391.785 (3) Free space on disk containing Updraft's temporary directory: 148130.7 MB
+1391.789 (3) Backup run: resumption=3, nonce=6fe152786d05, begun at=1523543752 (1391s ago), job type=backup
+1391.793 (3) Scheduling a resumption (4) after 300 seconds (1523545443) in case this run gets aborted
+1391.830 (3) Checking if we have a zip executable available
+1391.832 (3) Creation of backups of directories: already finished
+1391.836 (3) Saving backup status to database (elements: 8)
+1391.847 (3) Database dump (WordPress DB): Creation was completed already
+1391.858 (3) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1391.860 (3) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1391.862 (3) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1391.864 (3) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+1391.866 (3) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+1391.868 (3) Saving backup history. Total backup size: 11.3 MB
+1391.874 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1391.878 (3) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+1391.880 (3) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+1391.882 (3) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+1391.883 (3) An error condition has occurred for the first time during this job
+1391.888 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1391.891 (3) Number of backup sets in history: 2; groups (db): 1
+1391.892 (3) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1391.894 (3) This backup set is the backup set just made, so will not be deleted.
+1391.894 (3) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1391.894 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1391.896 (3) Number of backup sets in history: 2; groups (files): 1
+1391.897 (3) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1391.897 (3) This backup set is the backup set just made, so will not be deleted.
+1391.899 (3) This backup set is the backup set just made, so will not be deleted.
+1391.900 (3) This backup set is the backup set just made, so will not be deleted.
+1391.901 (3) This backup set is the backup set just made, so will not be deleted.
+1391.901 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1391.903 (3) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1391.903 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1391.903 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1391.908 (3) Resume backup (6fe152786d05, 3): finish run
+1391.912 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1391.916 (3) Резервное копирование не завершено; повторная попытка запланирована
+1701.923 (4) Opened log file at time: Thu, 12 Apr 2018 15:04:14 +0000 on http://pinsk
+1701.926 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1701.929 (4) Free space on disk containing Updraft's temporary directory: 148130.7 MB
+1701.934 (4) Backup run: resumption=4, nonce=6fe152786d05, begun at=1523543752 (1702s ago), job type=backup
+1701.938 (4) Scheduling a resumption (5) after 300 seconds (1523545754) in case this run gets aborted
+1701.957 (4) Checking if we have a zip executable available
+1701.960 (4) Creation of backups of directories: already finished
+1701.964 (4) Saving backup status to database (elements: 8)
+1701.992 (4) Database dump (WordPress DB): Creation was completed already
+1702.004 (4) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1702.006 (4) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1702.009 (4) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1702.011 (4) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+1702.014 (4) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+1702.016 (4) Saving backup history. Total backup size: 11.3 MB
+1702.023 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1702.027 (4) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+1702.030 (4) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+1702.032 (4) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+1702.034 (4) An error condition has occurred for the first time during this job
+1702.038 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1702.041 (4) Number of backup sets in history: 2; groups (db): 1
+1702.043 (4) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1702.044 (4) This backup set is the backup set just made, so will not be deleted.
+1702.045 (4) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1702.045 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1702.047 (4) Number of backup sets in history: 2; groups (files): 1
+1702.049 (4) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+1702.049 (4) This backup set is the backup set just made, so will not be deleted.
+1702.050 (4) This backup set is the backup set just made, so will not be deleted.
+1702.051 (4) This backup set is the backup set just made, so will not be deleted.
+1702.052 (4) This backup set is the backup set just made, so will not be deleted.
+1702.052 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1702.055 (4) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+1702.055 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1702.055 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1702.060 (4) Resume backup (6fe152786d05, 4): finish run
+1702.064 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1702.068 (4) Резервное копирование не завершено; повторная попытка запланирована
+2057.687 (5) Opened log file at time: Thu, 12 Apr 2018 15:10:09 +0000 on http://pinsk
+2057.691 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2057.695 (5) Free space on disk containing Updraft's temporary directory: 148130.4 MB
+2057.700 (5) Backup run: resumption=5, nonce=6fe152786d05, begun at=1523543752 (2057s ago), job type=backup
+2057.706 (5) Scheduling a resumption (6) after 300 seconds (1523546109) in case this run gets aborted
+2057.726 (5) Checking if we have a zip executable available
+2057.728 (5) Creation of backups of directories: already finished
+2057.732 (5) Saving backup status to database (elements: 8)
+2057.742 (5) Database dump (WordPress DB): Creation was completed already
+2057.767 (5) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2057.769 (5) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2057.771 (5) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2057.773 (5) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+2057.775 (5) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+2057.777 (5) Saving backup history. Total backup size: 11.3 MB
+2057.782 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+2057.786 (5) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+2057.789 (5) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+2057.790 (5) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+2057.792 (5) An error condition has occurred for the first time during this job
+2057.797 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2057.800 (5) Number of backup sets in history: 2; groups (db): 1
+2057.801 (5) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2057.803 (5) This backup set is the backup set just made, so will not be deleted.
+2057.803 (5) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2057.803 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2057.805 (5) Number of backup sets in history: 2; groups (files): 1
+2057.807 (5) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2057.807 (5) This backup set is the backup set just made, so will not be deleted.
+2057.808 (5) This backup set is the backup set just made, so will not be deleted.
+2057.809 (5) This backup set is the backup set just made, so will not be deleted.
+2057.809 (5) This backup set is the backup set just made, so will not be deleted.
+2057.810 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2057.811 (5) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2057.812 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+2057.812 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2057.818 (5) Resume backup (6fe152786d05, 5): finish run
+2057.823 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2057.827 (5) Резервное копирование не завершено; повторная попытка запланирована
+2366.219 (6) Opened log file at time: Thu, 12 Apr 2018 15:15:18 +0000 on http://pinsk
+2366.222 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2366.224 (6) Free space on disk containing Updraft's temporary directory: 148120 MB
+2366.230 (6) Backup run: resumption=6, nonce=6fe152786d05, begun at=1523543752 (2366s ago), job type=backup
+2366.252 (6) Scheduling a resumption (7) after 300 seconds (1523546418) in case this run gets aborted
+2366.275 (6) Checking if we have a zip executable available
+2366.277 (6) Creation of backups of directories: already finished
+2366.282 (6) Saving backup status to database (elements: 8)
+2366.296 (6) Database dump (WordPress DB): Creation was completed already
+2366.307 (6) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2366.309 (6) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2366.311 (6) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2366.314 (6) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+2366.316 (6) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+2366.318 (6) Saving backup history. Total backup size: 11.3 MB
+2366.327 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+2366.331 (6) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+2366.334 (6) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+2366.336 (6) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+2366.337 (6) An error condition has occurred for the first time during this job
+2366.342 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2366.346 (6) Number of backup sets in history: 2; groups (db): 1
+2366.348 (6) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2366.350 (6) This backup set is the backup set just made, so will not be deleted.
+2366.350 (6) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2366.351 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2366.353 (6) Number of backup sets in history: 2; groups (files): 1
+2366.354 (6) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2366.355 (6) This backup set is the backup set just made, so will not be deleted.
+2366.356 (6) This backup set is the backup set just made, so will not be deleted.
+2366.357 (6) This backup set is the backup set just made, so will not be deleted.
+2366.357 (6) This backup set is the backup set just made, so will not be deleted.
+2366.357 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2366.359 (6) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2366.359 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+2366.361 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2366.366 (6) Resume backup (6fe152786d05, 6): finish run
+2366.370 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2366.374 (6) Резервное копирование не завершено; повторная попытка запланирована
+2671.778 (7) Opened log file at time: Thu, 12 Apr 2018 15:20:23 +0000 on http://pinsk
+2671.783 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+2671.785 (7) Free space on disk containing Updraft's temporary directory: 148130.1 MB
+2671.790 (7) Backup run: resumption=7, nonce=6fe152786d05, begun at=1523543752 (2671s ago), job type=backup
+2671.793 (7) Scheduling a resumption (8) after 300 seconds (1523546723) in case this run gets aborted
+2671.834 (7) Checking if we have a zip executable available
+2671.836 (7) Creation of backups of directories: already finished
+2671.843 (7) Saving backup status to database (elements: 8)
+2671.858 (7) Database dump (WordPress DB): Creation was completed already
+2671.869 (7) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2671.871 (7) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2671.873 (7) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2671.876 (7) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+2671.878 (7) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+2671.880 (7) Saving backup history. Total backup size: 11.3 MB
+2671.885 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2671.889 (7) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+2671.891 (7) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+2671.893 (7) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+2671.895 (7) An error condition has occurred for the first time during this job
+2671.899 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2671.902 (7) Number of backup sets in history: 2; groups (db): 1
+2671.903 (7) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2671.905 (7) This backup set is the backup set just made, so will not be deleted.
+2671.905 (7) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2671.905 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2671.907 (7) Number of backup sets in history: 2; groups (files): 1
+2671.909 (7) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+2671.909 (7) This backup set is the backup set just made, so will not be deleted.
+2671.910 (7) This backup set is the backup set just made, so will not be deleted.
+2671.911 (7) This backup set is the backup set just made, so will not be deleted.
+2671.911 (7) This backup set is the backup set just made, so will not be deleted.
+2671.912 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2671.913 (7) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+2671.914 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2671.914 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2671.919 (7) Resume backup (6fe152786d05, 7): finish run
+2671.922 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2671.926 (7) Резервное копирование не завершено; повторная попытка запланирована
+3655.590 (8) Opened log file at time: Thu, 12 Apr 2018 15:36:47 +0000 on http://pinsk
+3655.593 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 32.5M | 33M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+3655.596 (8) Free space on disk containing Updraft's temporary directory: 148157.3 MB
+3655.600 (8) Backup run: resumption=8, nonce=6fe152786d05, begun at=1523543752 (3655s ago), job type=backup
+3655.604 (8) Scheduling a resumption (9) after 300 seconds (1523547707) in case this run gets aborted
+3655.624 (8) Checking if we have a zip executable available
+3655.626 (8) Creation of backups of directories: already finished
+3655.630 (8) Saving backup status to database (elements: 8)
+3655.644 (8) Database dump (WordPress DB): Creation was completed already
+3655.657 (8) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3655.662 (8) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3655.664 (8) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+3655.666 (8) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+3655.669 (8) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+3655.671 (8) Saving backup history. Total backup size: 11.3 MB
+3655.677 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+3655.682 (8) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+3655.685 (8) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+3655.687 (8) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+3655.689 (8) An error condition has occurred for the first time during this job
+3655.695 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3655.698 (8) Number of backup sets in history: 2; groups (db): 1
+3655.700 (8) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+3655.702 (8) This backup set is the backup set just made, so will not be deleted.
+3655.703 (8) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+3655.704 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3655.706 (8) Number of backup sets in history: 2; groups (files): 1
+3655.709 (8) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+3655.709 (8) This backup set is the backup set just made, so will not be deleted.
+3655.711 (8) This backup set is the backup set just made, so will not be deleted.
+3655.711 (8) This backup set is the backup set just made, so will not be deleted.
+3655.712 (8) This backup set is the backup set just made, so will not be deleted.
+3655.712 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3655.714 (8) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+3655.714 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+3655.715 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3655.720 (8) Resume backup (6fe152786d05, 8): finish run
+3655.724 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3655.730 (8) Резервное копирование не завершено; повторная попытка запланирована
+4042.742 (9) Opened log file at time: Thu, 12 Apr 2018 15:43:14 +0000 on http://pinsk
+4042.745 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.5 PHP: 5.3.29 (apache2handler, Windows NT DESKTOP-F9ORNNI 6.2 build 9200 (Unknow Windows version Business Edition) i586) MySQL: 5.5.48 WPLANG: ru_RU Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 31.3M | 31.8M) multisite: N openssl: OpenSSL 0.9.8zb 6 Aug 2014 mcrypt: Y LANG:  ZipArchive::addFile: Y
+4042.748 (9) Free space on disk containing Updraft's temporary directory: 148157.2 MB
+4042.752 (9) Backup run: resumption=9, nonce=6fe152786d05, begun at=1523543752 (4042s ago), job type=backup
+4042.756 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+4042.774 (9) Creation of backups of directories: already finished
+4042.779 (9) Saving backup status to database (elements: 8)
+4042.801 (9) Database dump (WordPress DB): Creation was completed already
+4042.812 (9) backup_2018-04-12-1735_pinskview_6fe152786d05-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4042.814 (9) backup_2018-04-12-1735_pinskview_6fe152786d05-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4042.817 (9) backup_2018-04-12-1735_pinskview_6fe152786d05-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4042.819 (9) backup_2018-04-12-1735_pinskview_6fe152786d05-others.zip: others: This file has not yet been successfully uploaded: will queue
+4042.821 (9) backup_2018-04-12-1735_pinskview_6fe152786d05-db.gz: db: This file has not yet been successfully uploaded: will queue
+4042.824 (9) Saving backup history. Total backup size: 11.3 MB
+4042.830 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+4042.834 (9) Cloud backup selection (1/1): onedrive with instance (1/1) (last)
+4042.836 (9) Beginning dispatch of backup to remote (onedrive) (instance identifier s-9ca88f361864e171fbee5551592ba0e2)
+4042.838 (9) You do not have the UpdraftPlus onedrive add-on installed - get it from https://updraftplus.com/shop/
+4042.840 (9) An error condition has occurred for the first time during this job
+4042.844 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4042.848 (9) Number of backup sets in history: 2; groups (db): 1
+4042.850 (9) Examining (for databases) backup set with group_id=0, nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+4042.852 (9) This backup set is the backup set just made, so will not be deleted.
+4042.853 (9) Examining (for databases) backup set with group_id=0, nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+4042.853 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4042.855 (9) Number of backup sets in history: 2; groups (files): 1
+4042.857 (9) Examining (for files) backup set with nonce=6fe152786d05, datestamp=1523543752 (Apr 12 2018 14:35:52)
+4042.857 (9) This backup set is the backup set just made, so will not be deleted.
+4042.858 (9) This backup set is the backup set just made, so will not be deleted.
+4042.859 (9) This backup set is the backup set just made, so will not be deleted.
+4042.859 (9) This backup set is the backup set just made, so will not be deleted.
+4042.860 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4042.861 (9) Examining (for files) backup set with nonce=372c183b98d7, datestamp=1523457421 (Apr 11 2018 14:37:01)
+4042.862 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+4042.862 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4042.868 (9) Resume backup (6fe152786d05, 9): finish run
+4042.871 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4042.876 (9) Fetching RSS news feed
+4043.560 (9) Fetched RSS news feed; result is a: SimplePie
+4043.726 (9) Sending email ('Файлы и база данных (Полное резервное копирование)') report (attachments: 1, size: 55.6 KB) to: ksush...
+4044.321 (9) Попытка резервного копирования удалась, но по видимому неуспешна

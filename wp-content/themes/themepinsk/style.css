@@ -1,0 +1,1538 @@
+/*
+@font-face {
+    font-family:Jura-Medium;
+    src: url(http://pinsk/wp-content/themes/themepinsk/Arsenal.ttf);
+    font-weight: normal;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Pacifico');
+
+html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arsenal', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    height: 100%;
+    /*    cursor: url(images/icons/icon_cursor.png), default;*/
+}
+
+
+.wrapper {
+    max-width: 80%;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 110px;
+}
+
+content {
+    height: 100px;
+}
+
+img {
+    border: 0;
+}
+
+p {
+    font-size: 17px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+h2 {
+    font-size: 21px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #479541;
+    font-family: 'Arsenal', sans-serif;
+}
+
+/*
+li,
+ol,
+ul {
+    list-style-type: none;
+}
+*/
+
+/* ------------------------------------------------- ВЫРАВНИВАНИЕ ----------------------------------- */
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+/* ------------------------------------------------- СПИСОК СТАТЕЙ (РУБРИКА) ------------------------------------ */
+
+.article {
+    padding-bottom: 100px;
+    padding-top: 2px;
+    padding-left: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+}
+
+/*
+.article:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+*/
+
+.article a {
+    color: #29c5e6;
+}
+
+.article a:hover {
+    text-decoration: underline;
+    text-decoration-color: #a6d8a2;
+}
+
+#read_more {
+    color: #34762f;
+}
+
+/* фото-миниатюра*/
+
+.wp-post-image {
+    padding: 3px 15px 5px 5px;
+}
+
+
+/*----------------------------------------- ТЕГИ на стр рубрики ----------------------------------------*/
+
+.tags {
+    margin: 20px;
+}
+
+.tags a {
+    font-family: 'Arsenal', sans-serif;
+    color: #34762f;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.tags a:hover {
+    color: #a6d8a2;
+}
+
+
+/* ------------------------------------------------ ПАГИНАЦИЯ ------------------------------------------- */
+
+.page-numbers {
+    /*    margin: 6px;*/
+    color: #2a6f25;
+    padding: 3px 10px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.page-numbers:hover {
+    background-color: #ddd;
+}
+
+.current {
+    background-color: rgba(52, 118, 47, 0.59);
+    border-radius: 30px;
+}
+
+
+/* ------------------------------- РАЗМЕТКА: БОКОВОЕ МЕНЮ (САЙДБАР) ---------------------------------------------------- */
+
+aside {
+    float: left;
+    width: 250px;
+}
+
+aside + section {
+    margin-left: 280px;
+    padding-bottom: 5px;
+}
+
+
+/*------------------------------------------------ ФОРМА ДЛЯ ВХОДА ----------------------------------------------------------------------*/
+
+.lo {
+    max-width: 150px;
+    padding: 20px 20px 20px;
+    margin: 30px;
+    background-color: #fff;
+    position: absolute;
+    margin-top: 10px;
+    display: none;
+    right: 0;
+   
+}
+
+.form-row {
+    position: relative;
+    margin-bottom: 5px;
+    padding-top: 25px;
+}
+
+.form-row input {
+    display: block;
+    /*    width: 100%;*/
+    line-height: 25px;
+    font-family: 'Arsenal', sans-serif;
+    border-width: 0;
+    border-bottom: 2px solid #4a90e2;
+    transition: all 0.2s ease;
+}
+
+.form-row label {
+    position: absolute;
+    left: 13px;
+    color: #9d959d;
+    font-size: 14px;
+    font-weight: 300;
+    transform: translateY(-35px);
+    transition: all 0.2s ease;
+}
+
+.form-row input:focus {
+    outline: 0;
+    border-color: #34762f;
+}
+
+.form-row input:focus + label,
+.form-row input:valid + label {
+    transform: translateY(-60px);
+    margin-left: -12px;
+    /*    font-size: 12px;*/
+    font-weight: 400;
+    outline: 0;
+    border-color: #34762f;
+    color: #29c5e6;
+}
+
+#log {
+    background-color: #29c5e6;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+    padding: 5px;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+/*------------------------------------------ ВХОД --------------------------------------------- */
+
+#hider {
+    position: relative;
+    top: -9999px;
+    left: -9999px;
+    padding: 20px 20px 20px;
+}
+
+#hider:checked + .lo {
+    display: block;
+}
+
+#clickme {
+    text-decoration: none;
+    color: #34762f;
+    cursor: pointer;
+}
+
+
+/*------------------------------------------------------- ПРОФИЛЬ -------------------------------------------------------*/
+
+.profile .pol {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.pol input {
+    width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #d8d8d8;
+	background: #f4f4f4;
+	border-radius: 8px;
+    padding-bottom: 5px\0;
+    width: 250px;
+}
+
+.pol label {
+    font-size: 18px;
+    display:inline-block;
+    width: 250px;
+}
+
+.profile .submit {
+    background-color: #29c5e6;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-left: 430px;
+}
+
+.success {
+    font-family:  'Arsenal', sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #34762f;
+}
+
+.error {
+    font-family:  'Arsenal', sans-serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #d31e1e;
+}
+
+/* Controls */
+
+/*
+.input {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+*/
+
+/*
+.button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+*/
+
+/*
+.image {
+	border: 1px solid #fff;
+	outline: 1px solid #c9c9c9;
+}
+
+figure img {
+	display: block;
+}
+*/
+
+.nav-links {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* -------------------------------------------------- ХЭДЕР ------------------------------------- */
+
+header {
+    display: block;
+    padding: 20px 0;
+    background: url(images/background_header.jpg) no-repeat center bottom;
+    /*    background: #c4d8fd;*/
+}
+
+
+/* ---------------------------------------------------------- МЕНЮ ------------------------------------------------- */
+
+.main-navigation {
+    background: #34762f;
+    color: #fff;
+    margin: 0;
+}
+
+.top-menu {
+    margin: 0;
+    text-align: justify;
+    padding-left: 0;
+}
+
+.top-menu:after {
+    display: inline-block;
+    content: "";
+    width: 100%;
+}
+
+.top-menu ul {
+    margin: 5px;
+
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 15px 45px;
+    margin: 0;
+    text-transform: uppercase;
+    list-style-position: inside;
+    font-size: 18px;
+
+}
+
+.top-menu li:hover {
+    background: rgb(42, 98, 37);
+}
+
+.top-menu li.current_page_item {
+    background: #29c5e6;
+}
+
+
+.top-menu li.current-menu-item {
+    background: #29c5e6;
+}
+
+.top-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-menu li.current_page_item a {
+    color: #fff;
+}
+
+.top-menu li.current-menu-item a {
+    color: #fff;
+}
+
+/* --------------------------- меню-сайдбар ----------------------------------------- */
+
+.aside-navigation {
+    background: rgb(235, 244, 234);
+}
+
+.aside-navigation h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.aside-navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.aside-navigation ul {
+    padding: 0;
+}
+
+.aside-navigation li {
+    font-weight: 300;
+    list-style: square inside;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 300;
+    list-style-type: none;
+}
+
+.aside-navigation li:first-child {
+    border: none;
+}
+
+/* ---------------------------------------- ЗАГОЛОВОК СТРАНИЦ --------------------------------------- */
+
+.main-heading {
+    margin: 30px 0;
+    padding-left: 0px;
+}
+
+.main-heading h1 {
+    display: inline-block;
+    color: #2a6f25;
+    font-size: 40px;
+    margin: 0;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Arsenal', sans-serif;
+}
+
+
+/* -------------------------------------------------- заголовок сайдбар ----------------------------------------*/
+
+.sidebar-heading {
+    background: #29c5e6;
+    font: 14px;
+    color: #fff;
+    padding: 10px;
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+}
+
+
+
+/* -------------------------------------------------- ПОИСК ------------------------------------------------ */
+
+.search-icon {
+    position: absolute;
+    top: 15px;
+    right: 3px;
+}
+
+.search-form {
+    float: right;
+}
+
+.search-form .input {
+    background-color: transparent;
+    background-image: url(images/icons/icon_search.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 37px;
+    margin: 5px;
+    padding: 0 0 0 34px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition: width 400ms ease, background 400ms ease;
+    width: 0;
+}
+
+.search-form .input:focus {
+    background-color: #fff;
+    border: 2px solid #34762f;
+    cursor: text;
+    outline: 0;
+    width: 230px;
+}
+
+.search-form .button {
+    display: none;
+}
+
+
+.search-content {
+    margin-bottom: 40px;
+}
+
+.search-content p {
+    margin: 0;
+    padding: 20;
+}
+
+.search-content h3 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.advanced-search-form {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.advanced-search-form input[type="text"] {
+    width: 60%;
+	font-size: 13px;
+    font-family: 'Arsenal', sans-serif;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #acacac;
+	background: #f0f0f0;
+	border-radius: 8px;
+    padding-bottom: 5px\0;
+}
+
+.advanced-search-form input[type="checkbox"] {
+    border: 1px solid #acacac;
+	background: #f0f0f0;
+	border-radius: 8px;
+}
+
+.advanced-search-form button {
+    background-color: #29c5e6;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+}
+
+.advanced-search-form fieldset {
+    border: 1px solid #acacac;
+    border-radius: 8px;
+}
+
+.advanced-search-form legend {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* ----------------------------------------- ССЫЛКИ ВХОД/РЕГИСТРАЦИЯ ------------------------------------- */
+.user {
+    text-decoration: none;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.user h3 {
+    margin: 0;
+    padding: 5px;
+    color: #000;
+}
+
+.user .admin a{
+    color: #fa5d5d;
+}
+
+
+#icon-registr, #icon-login, #icon-logout {
+    background-color: transparent;
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 37px;
+    margin: 5px;
+    padding: 0 0 0 34px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition: width 400ms ease, background 400ms ease;
+    width: 0;
+}
+#icon-registr {
+    background-image: url(images/icons/icon_user.png);
+}
+#icon-login {
+    background-image: url(images/icons/icon_login.png);
+}
+#icon-logout {
+    background-image: url(images/icons/icon_logout.png);
+}
+
+/*  */
+
+.main-blockquote {
+    margin: 0;
+    background: #29c5e6;
+    padding: 10px 20px;
+    font-weight: 300;
+}
+
+.main-blockquote p {
+    color: #fff;
+    font-style: italic;
+    font-size: 33px;
+    margin: 0;
+}
+
+.main-blockquote cite {
+    display: block;
+    font-size: 20px;
+    font-style: normal;
+    color: #1d8ea6;
+    margin: 0;
+    text-align: right;
+}
+
+
+.content {
+    padding-bottom: 100px;
+}
+
+.content-heading {
+    background: #29c5e6;
+    font-weight: 300;
+    color: #fff;
+    padding: 0 10px;
+    margin: 30px 0 0 0;
+    text-transform: uppercase;
+    /*    padding: 120px;*/
+}
+
+
+
+/* --------------------------------------------------- ФУТЕР --------------------------------------------- */
+
+footer {
+    position: relative;
+    clear: both;
+    background: #c4d8fd;
+    color: #000;
+    font-size: 11px;
+    height: 100px;
+    margin-top: -100px;
+
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.footer-heading {
+    color: #000;
+    border-bottom: 1px solid #919191;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+footer p {
+    margin: 2px 0;
+}
+
+.footer-contacts {
+    float: left;
+    width: 200px;
+}
+
+.footer-contacts p {
+    padding-right: 15px;
+}
+
+
+/* ------------------------------ СОЦИАЛЬНЫЕ СЕТИ - ФУТЕР ----------------------- */
+
+.social {
+    float: left;
+    margin-left: 50px;
+    width: 150px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.twitter-icon {
+    background-image: url(images/icons/icon_twitter.png);
+}
+
+.twitter-icon:hover {
+    background-image: url(images/icons/icon_twitter_hover.png);
+}
+
+.facebook-icon {
+    background-image: url(images/icons/icon_facebook.png);
+}
+
+.facebook-icon:hover {
+    background-image: url(images/icons/icon_facebook_hover.png);
+}
+
+.vk-icon {
+    background-image: url(images/icons/icon_vk.png);
+}
+
+.vk-icon:hover {
+    background-image: url(images/icons/icon_vk_hover.png);
+}
+
+
+
+/* ------------------------------- ЛОГОТИП ФУТЕР --------------------------------- */
+
+.footer-cont {
+    float: right;
+    margin: 0;
+    font-size: 10px;
+    text-align: right;
+}
+
+.footer-cont p {
+    margin-top: 10px;
+}
+
+.footer-logo {
+    width: 150px;
+    height: auto;
+    margin: 0;
+    text-align: right;
+}
+
+
+.logosvg-footer {
+    fill: #355E32;
+    font-family: 'Pacifico', cursive;
+    font-size: 9px;
+    text-align: right;
+}
+
+/* Slider */
+
+/*
+.slider {
+	margin-top: 30px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.slider .content {
+	height: 220px;
+	padding: 30px 40px;
+	background: #e2e2e2;
+}
+
+.slider .title {
+	color: #5a5a5a;
+	font-size: 42px;
+}
+
+.slider .subtitle {
+	color: #acacac;
+	font-size: 20px;
+}
+
+.slider .links {
+	display: block;
+	margin: 0;
+	padding: 10px;
+	background: #f3f3f3;
+	border-bottom: 1px solid #e7e7e7;
+	counter-reset: list 0;
+	color: #8f8f8f;
+}
+
+.slider .links li {
+	display: inline-block;
+	font-size: 18px;
+	line-height: 23px;
+	margin-right: 55px;
+	cursor: pointer;
+}
+
+.slider .links li.active {
+	color: #29c5e6;
+}
+
+.slider .links li:before {
+	display: inline-block;
+	counter-increment: list;
+	content: counter(list) " ";
+	background: #8f8f8f;
+	color: #fff;
+	width: 23px;
+	text-align: center;
+	margin-right: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.slider .links li.active:before {
+	background: #29c5e6;
+}
+*/
+
+/* Teaser */
+
+/*
+.teaser {
+	display: inline-block;
+	padding: 0 10px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	vertical-align: top;
+}
+
+.teaser .heading {
+	background: transparent url(images/h1-bg.png);
+	margin: 40px 0 20px;
+	height: 16px;
+}
+
+.teaser .bullet {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #29c5e6;
+	vertical-align: top;
+}
+
+.teaser .heading-text {
+	display: inline-block;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 10px;
+	background: url(images/bg.png);
+}
+
+.teaser .image {
+	float: left;
+	margin-right: 20px;
+}
+
+.teaser .small-block {
+	margin-bottom: 10px;
+}
+
+.teaser .small-block .image {
+	margin-right: 10px;
+}
+
+.teaser .more,
+.teaser .more a {
+	color: #525252;
+	margin-bottom: 0;
+}
+
+.teaser-small-heading {
+	display: block;
+	color: #525252;
+	margin: 0;
+	font-weight: normal;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+.teaser-small-paragraph {
+	margin: 4px 0;
+	font-size: 11px;
+}
+*/
+
+/* Team */
+
+/*
+.team-row figure {
+	display: inline-block;
+	margin: 20px 0 0;
+	font-weight: 300;
+}
+
+.team-row figure + figure {
+	margin-left: 43px;
+}
+
+.team-row figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+.team-row .occupation {
+	display: block;
+	font-size: 14px;
+	color: #29c5e6;
+}
+*/
+
+/*section > figure + figure {*/
+
+/*margin-left: 28px;*/
+
+/*}*/
+
+/* ----------------------------------------------------- МОДАЛЬНОЕ ОКНО ------------------------------------------- */
+
+.modal,
+.modal2 {
+
+    /* Слой перекрытия */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10000;
+
+    /* Трансформации прозрачности при открытии  */
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;
+
+    /* Скрываем изначально */
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Показываем модальное окно */
+
+.modal:target,
+.modal2:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Содержание */
+
+.modal > div,
+.modal2 > div {
+    width: 300px;
+    background: #ffffff;
+    position: relative;
+    margin: 10% auto;
+
+    /* По умолчанию минимизируем анимацию */
+    -webkit-animation: minimise 500ms linear;
+
+    /* Придаем хороший вид */
+    padding: 30px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 1px 0 #fff;
+}
+
+/* Изменяем анимацию при открытии модального окна*/
+
+.modal:target > div,
+.modal2:target > div {
+    -webkit-animation-name: bounce;
+}
+
+.modal h2,
+.modal2 h2 {
+    font-size: 36px;
+    padding: 0 0 20px;
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: scale3d(0.1, 0.1, 1);
+        -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    }
+    55% {
+        -webkit-transform: scale3d(1.08, 1.08, 1);
+        -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0);
+    }
+    75% {
+        -webkit-transform: scale3d(0.95, 0.95, 1);
+        -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        -webkit-box-shadow: 0 3px 20px rgba(0, 0, 0, 0.9);
+    }
+}
+
+@-webkit-keyframes minimise {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(0.1, 0.1, 1);
+    }
+}
+
+/* Ссылка на кнопку Закрыть */
+
+.modal a[href="#close"],
+.modal2 a[href="#close"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: transparent;
+}
+
+/* Сбрасываем изменения */
+
+.modal a[href="#close"]:focus,
+.modal2 a[href="#close"]:focus {
+    outline: none;
+}
+
+/* Создаем кнопку Закрыть */
+
+.modal a[href="#close"]:after,
+.modal2 a[href="#close"]:after {
+    content: 'X';
+    display: block;
+
+    /* Позиционируем */
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 20px;
+    padding: 1px 1px 1px 2px;
+
+    /* Стили */
+    text-decoration: none;
+    text-shadow: none;
+    text-align: center;
+    font-weight: bold;
+    background: #000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.modal a[href="#close"]:focus:after,
+.modal a[href="#close"]:hover:after,
+.modal2 a[href="#close"]:focus:after,
+.modal2 a[href="#close"]:hover:after {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+}
+
+.modal a[href="#close"]:focus:after,
+.modal2 a[href="#close"]:focus:after {
+    outline: 0px solid #000;
+}
+
+/* Открываем модальное окно */
+
+a.openModal {}
+
+a.openModal:hover,
+a.openModal:focus {}
+
+.modal .modal_title {
+    display: block;
+    text-align: center;
+    font-size: 22pt;
+}
+
+
+
+/* ---------------------------------------------- КОММЕНТАРИИ -------------------------------*/
+
+.wrap-comments {
+    margin-bottom: 60px;
+    font-family: 'Arsenal', sans-serif;
+    text-decoration: none;
+}
+
+.commentlist p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+.comment {
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+
+/* комментарий автора */
+
+.commentlist .bypostauthor {
+    border-top: 10px solid #29c5e6;
+}
+
+.commentlist li ul.children li.bypostauthor {
+    border-top: 10px solid #29c5e6;
+}
+
+/* кнопка ответить */
+
+.comment-reply-link {
+    background-color: rgb(168, 220, 230);
+    color: #fff;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.commentlist .reply {
+    text-align: right;
+    margin-right: 25px;
+}
+
+/*стиль для древовидных комментариев*/
+
+.commentlist .children {
+    padding-left: 40px;
+    /* отступ слева для дочерних комментариев */
+    padding-right: 40px;
+}
+
+.commentlist .even {
+    /* нечетные комментарии */
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding-bottom: 15px;
+
+}
+
+.commentlist .odd {
+    /* четные комментарии */
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.commentmetadata {
+    background-color: #ffffff;
+    text-align: center;
+    color: #000;
+}
+
+.commentmetadata a {
+    color: #000;
+}
+
+.sce-edit-button {
+    text-align: right;
+    color: #000;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.sce-edit-button a {
+    color: #29c5e6;
+    padding: 3px;
+}
+
+.vcard {
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*
+.avatar {
+    border-radius: 100px;
+    display: block;
+}
+*/
+
+.fn,
+.says {
+    font-style: normal;
+    color: #28bad9;
+    font-family: 'Arsenal', sans-serif;
+    font-weight: 600;
+}
+
+/* ----------------------------------------------- ФОРМА ДЛЯ КОММЕНТАРИЕВ --------------------------------------*/
+
+.comment-respond .attachment {
+    font-family: 'Arsenal', sans-serif;
+}
+
+.comment-reply-title {
+    margin-bottom: 15px;
+}
+
+.comment-form .logged-in-as {
+    margin: 0px;
+}
+
+.comment-form .logged-in-as a {
+    color: #000;
+}
+
+
+.comment-form-url {
+    margin-top: 5px;
+}
+
+.comment-form-url .comment-form-attachment {
+    font-family: 'Arsenal', sans-serif;
+    margin: 0;
+}
+
+.attachmentRules {
+    font-family: 'Arsenal', sans-serif;
+}
+
+.comment-form-attachment input {
+    background-color: #29c5e6;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Arsenal', sans-serif;
+}
+
+.comment-form-comment label {
+    display: block;
+}
+
+.comment-form-comment textarea {
+    display: block;
+    color: black;
+    width: 99%;
+}
+
+.comment-form-comment textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.82);
+    background: #fff;
+}
+
+.form-submit {
+    text-align: right;
+}
+
+.form-submit input {
+    background-color: #29c5e6;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+}
+
+/* ------------------------------------------- КНОПКА НАВЕРХ --------------------------------------*/
+
+#totop {
+    opacity: 0.4;
+}
+
+#totop:hover {
+    opacity: 1;
+}
+
+
+/*Логотип*/
+
+.logo {
+    text-align: center;
+    position: relative;
+}
+
+.logosvg {
+    fill: #355E32;
+    font-family: 'Pacifico', cursive;
+    font-size: 79.9577px;
+}
+
+
+/* --------------------------------------- ПОХОЖИЕ ЗАПИСИ С МИНИАТЮРАМИ ----------------------------------------- */
+
+#interesting_articles {
+    margin: 10px 0;
+    float: center;
+    width: 100%;
+    font-family: 'Arsenal', sans-serif;
+}
+
+#interesting_articles ul {
+    margin-left: 5px;
+}
+
+#interesting_articles li {
+    list-style: none;
+}
+
+.cells {
+    text-align: center;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.cell {
+    height: 225px;
+    box-shadow: #F5F5F5 0px 2px 3px, #F5F5F5 0 0 3px inset;
+    float: left;
+    list-style: none;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    width: 157px;
+    overflow: hidden;
+    border: #F5F5F5 solid 1px;
+    border-radius: 10px;
+}
+
+.cell a:hover {
+    color: #C6C600;
+    text-decoration: none;
+}
+
+.cell a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#interesting_articles li :hover {
+    background-color: #f9f9f9;
+}
+
+/* Стили для мобильных устройств */
+
+@media screen and (max-width:760px) {
+    #interesting_articles {
+        width: auto;
+        display: block;
+        position: relative;
+    }
+    #interesting_articles ul {
+        width: auto;
+    }
+    #interesting_articles li {
+        float: left;
+    }
+}
+
+/* ----------------------------------------------- ХЛЕБНЫЕ КРОШКИ --------------------------------------------------------- */
+
+#breadcrumbs {
+    width: auto;
+    font-size: 14px;
+    color: #80aaf7;
+    text-align: left;
+    margin: 3px 30px 0px 0px;
+    padding-bottom: 5px;
+}
+
+#breadcrumbs a,
+#breadcrumbs a:visited {
+    color: #80aaf7;
+    text-decoration: none;
+}
+
+#breadcrumbs a:hover,
+#breadcrumbs a:active {
+    color: #c4d8fd;
+    text-decoration: none;
+}
+
+
+
+
+/* ------------------------------------------------ КАРТА --------------------------------------------------------------- */
+
+.cls-1 {
+    fill: #9dcea7;
+}
+
+.cls-1,
+.cls-2,
+.cls-8 {
+    stroke: #89545b;
+    stroke-width: 4px;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+    stroke-miterlimit: 10;
+}
+
+.cls-2 {
+    fill: #efe;
+}
+
+.cls-3 {
+    fill: #29c5e6;
+    stroke: #29c5e6;
+}
+
+.cls-4 {
+    fill: #34762f;
+    stroke: #34762f;
+}
+
+.cls-5,
+.cls-6,
+.cls-7,
+.cls-8 {
+    fill: none;
+}
+
+.cls-5,
+.cls-6,
+.cls-7 {
+    stroke: #000;
+}
+
+.cls-5 {
+    stroke-width: 2px;
+}
+
+.cls-6 {
+    stroke-width: 3px;
+}
+
+
+
+/* -------------------------------------------------- РЕГИСТРАЦИЯ ------------------------------------------------------- */
+.registration {
+    display: block;
+}
+
+.registration input {
+    width: 300px;
+	font-size: 13px;
+	padding: 6px 0 4px 10px;
+	border: 1px solid #d8d8d8;
+	background: #f4f4f4;
+	border-radius: 8px;
+    padding-bottom: 5px\0;
+}
+
+.registration label {
+    font-size: 18px;
+    display:inline-block;
+    width: 250px;
+}
+
+.registration input[type="submit"] {
+    background-color: #29c5e6;
+    border-radius: 5px;
+    color: #fff;
+    border-style: none;
+    padding: 10px;
+    font-family: 'Arsenal', sans-serif;
+    font-size: 16px;
+    margin-left: 465px;
+    width: 100px;
+}
+
+/*---------------------------------------------- ТЕКСТ СТАТЕЙ ------------------------------------------------------------------ */
+.text {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 18px;
+    color: #000; 
+}
+
+.text ul {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.text li {
+     list-style-image: url(images/icons/icon_li.png);
+}
+
+.text-cont h4 {
+    font-family: 'Arsenal', sans-serif;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+/*-------------------------------------------------- КНОПКИ НА ГЛАВНОЙ СТРАНИЦЕ --------------------------------------------- */

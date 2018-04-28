@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: codepeople-post-map\n"
+"POT-Creation-Date: 2014-12-27 02:33+0100\n"
+"PO-Revision-Date: 2014-12-27 02:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: CodePeople\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../codepeople-post-map.php:87
+msgid "Associate an address to the post for Google Maps association"
+msgstr "Associer une adresse à l'article pour l'afficher sur Google Maps"
+
+#: ../include/functions.php:50
+msgid "ARABIC"
+msgstr "ARABE"
+
+#: ../include/functions.php:51 ../include/functions.php:63
+msgid "BASQUE"
+msgstr "Basque"
+
+#: ../include/functions.php:52
+msgid "BULGARIAN"
+msgstr "BULGARE"
+
+#: ../include/functions.php:53
+msgid "BENGALI"
+msgstr "BENGALI"
+
+#: ../include/functions.php:54
+msgid "CATALAN"
+msgstr "CATALAN"
+
+#: ../include/functions.php:55
+msgid "CZECH"
+msgstr "TCHÈQUE"
+
+#: ../include/functions.php:56
+msgid "DANISH"
+msgstr "DANOIS"
+
+#: ../include/functions.php:57
+msgid "GERMAN"
+msgstr "ALLEMAND"
+
+#: ../include/functions.php:58
+msgid "GREEK"
+msgstr "GREC"
+
+#: ../include/functions.php:59
+msgid "ENGLISH"
+msgstr "ANGLAIS"
+
+#: ../include/functions.php:60
+msgid "ENGLISH (AUSTRALIAN)"
+msgstr "Anglais (australien)"
+
+#: ../include/functions.php:61
+msgid "ENGLISH (GREAT BRITAIN)"
+msgstr "ANGLAIS (GRANDE-BRETAGNE)"
+
+#: ../include/functions.php:62
+msgid "SPANISH"
+msgstr "ESPAGNOL"
+
+#: ../include/functions.php:64
+msgid "FARSI"
+msgstr "FARSI"
+
+#: ../include/functions.php:65
+msgid "FINNISH"
+msgstr "Finlandais"
+
+#: ../include/functions.php:66
+msgid "FILIPINO"
+msgstr "Philippin"
+
+#: ../include/functions.php:67
+msgid "FRENCH"
+msgstr "FRANÇAIS"
+
+#: ../include/functions.php:68
+msgid "GALICIAN"
+msgstr "GALICIEN"
+
+#: ../include/functions.php:69
+msgid "GUJARATI"
+msgstr "GUJARATI"
+
+#: ../include/functions.php:70
+msgid "HINDI"
+msgstr "HINDI"
+
+#: ../include/functions.php:71
+msgid "CROATIAN"
+msgstr "CROATE"
+
+#: ../include/functions.php:72
+msgid "HUNGARIAN"
+msgstr "HONGROIS"
+
+#: ../include/functions.php:73
+msgid "INDONESIAN"
+msgstr "INDONÉSIEN"
+
+#: ../include/functions.php:74
+msgid "ITALIAN"
+msgstr "ITALIEN"
+
+#: ../include/functions.php:75
+msgid "HEBREW"
+msgstr "HÉBREU"
+
+#: ../include/functions.php:76
+msgid "JAPANESE"
+msgstr "JAPONAIS"
+
+#: ../include/functions.php:77
+msgid "KANNADA"
+msgstr "KANNADA"
+
+#: ../include/functions.php:78
+msgid "KOREAN"
+msgstr "CORÉEN"
+
+#: ../include/functions.php:79
+msgid "LITHUANIAN"
+msgstr "LITUANIEN"
+
+#: ../include/functions.php:80
+msgid "LATVIAN"
+msgstr "LETTON"
+
+#: ../include/functions.php:81
+msgid "MALAYALAM"
+msgstr "MALAYALAM"
+
+#: ../include/functions.php:82
+msgid "MARATHI"
+msgstr "MARATHI"
+
+#: ../include/functions.php:83
+msgid "DUTCH"
+msgstr "HOLLANDAIS"
+
+#: ../include/functions.php:84
+msgid "NORWEGIAN"
+msgstr "NORVÉGIEN"
+
+#: ../include/functions.php:85
+msgid "ORIYA"
+msgstr "ORIYA"
+
+#: ../include/functions.php:86
+msgid "POLISH"
+msgstr "POLONAIS"
+
+#: ../include/functions.php:87
+msgid "PORTUGUESE"
+msgstr "Portugais"
+
+#: ../include/functions.php:88
+msgid "PORTUGUESE (BRAZIL)"
+msgstr "Portugais (Brésil)"
+
+#: ../include/functions.php:89
+msgid "PORTUGUESE (PORTUGAL)"
+msgstr "Portugais (Portugal)"
+
+#: ../include/functions.php:90
+msgid "ROMANIAN"
+msgstr "ROUMAIN"
+
+#: ../include/functions.php:91
+msgid "RUSSIAN"
+msgstr "Russe"
+
+#: ../include/functions.php:92
+msgid "SLOVAK"
+msgstr "Slovaque"
+
+#: ../include/functions.php:93
+msgid "SLOVENIAN"
+msgstr "SLOVÈNE"
+
+#: ../include/functions.php:94
+msgid "SERBIAN"
+msgstr "Serbe"
+
+#: ../include/functions.php:95
+msgid "SWEDISH"
+msgstr "Suédois"
+
+#: ../include/functions.php:96
+msgid "TAGALOG"
+msgstr "TAGALOG"
+
+#: ../include/functions.php:97
+msgid "TAMIL"
+msgstr "TAMIL"
+
+#: ../include/functions.php:98
+msgid "TELUGU"
+msgstr "TELUGU"
+
+#: ../include/functions.php:99
+msgid "THAI"
+msgstr "THAILANDAIS"
+
+#: ../include/functions.php:100
+msgid "TURKISH"
+msgstr "TURC"
+
+#: ../include/functions.php:101
+msgid "UKRAINIAN"
+msgstr "UKRAINIEN"
+
+#: ../include/functions.php:102
+msgid "VIETNAMESE"
+msgstr "VIETNAMIENNE"
+
+#: ../include/functions.php:103
+msgid "CHINESE (SIMPLIFIED)"
+msgstr "CHINOIS (SIMPLIFIÉ)"
+
+#: ../include/functions.php:104
+msgid "CHINESE (TRADITIONAL)"
+msgstr "CHINOIS (TRADITIONNEL)"
+
+#: ../include/functions.php:343
+msgid "Select the marker by clicking on the images"
+msgstr "Sélectionnez le marqueur en cliquant sur une image"
+
+#: ../include/functions.php:354
+msgid "Powered by"
+msgstr "Alimenté par"
+
+#: ../include/functions.php:376
+msgid "Maps Configuration"
+msgstr "Configuration des cartes"
+
+#: ../include/functions.php:377 ../include/functions.php:746
+msgid ""
+"For any issues with the map, go to our <a href=\"http://wordpress.dwbooster."
+"com/contact-us\" target=\"_blank\">contact page</a> and leave us a message."
+msgstr ""
+"Pour tous les problèmes avec la carte , aller à notre <a href=\"http://"
+"wordpress.dwbooster.com/contact-us\" target=\"_blank\">page-contact</a> et "
+"laissez nous un message"
+
+#: ../include/functions.php:379
+msgid ""
+"If you want test the premium version of CP Google Maps go to the following "
+"links:<br/> <a href=\"http://demos.net-factor.com/cp-google-maps/wp-login.php"
+"\" target=\"_blank\">Administration area: Click to access the administration "
+"area demo</a><br/> <a href=\"http://demos.net-factor.com/cp-google-maps/\" "
+"target=\"_blank\">Public page: Click to access the CP Google Maps</a>"
+msgstr ""
+"Si vous voulez tester la version premium de CP Google Maps, utilisez les  "
+"liens suivants: <br/> <a href=\"http://demos.net-factor.com/cp-google-maps/"
+"wp-login.php\" target=\"_blank\">Zone Administration: Cliquez pour accéder à "
+"la démo de zone d'administration</a><br/> <a href=\"http://demos.net-factor."
+"com/cp-google-maps/\" target=\"_blank\">Page publique: Cliquez pour accéder "
+"au CP Google Maps</a>"
+
+#: ../include/functions.php:386
+msgid "Use particular settings for this map:"
+msgstr "Utiliser des paramètres particuliers pour cette carte:"
+
+#: ../include/functions.php:395
+msgid "Map zoom:"
+msgstr "Zoom"
+
+#: ../include/functions.php:401
+msgid "Dynamic zoom:"
+msgstr "Zoom dynamique:"
+
+#: ../include/functions.php:403
+msgid "Allows to adjust the zoom dynamically to display all points on map"
+msgstr ""
+"Permet de régler le zoom dynamique pour afficher tous les points sur la carte"
+
+#: ../include/functions.php:407
+msgid "Map width:"
+msgstr "Largeur de la carte:"
+
+#: ../include/functions.php:419
+msgid "Map height:"
+msgstr "Hauteur de la carte:"
+
+#: ../include/functions.php:425
+msgid "Map margin:"
+msgstr "Marge de la carte:"
+
+#: ../include/functions.php:431
+msgid "Map align:"
+msgstr "Alignement de la Carte:"
+
+#: ../include/functions.php:434
+msgid "left"
+msgstr "gauche"
+
+#: ../include/functions.php:435
+msgid "center"
+msgstr "centre"
+
+#: ../include/functions.php:436
+msgid "right"
+msgstr "droit"
+
+#: ../include/functions.php:441
+msgid "Map type:"
+msgstr "Type de Carte:"
+
+#: ../include/functions.php:444
+msgid "ROADMAP - Displays a normal street map"
+msgstr "FEUILLE DE ROUTE - Affiche un plan normal"
+
+#: ../include/functions.php:445
+msgid "SATELLITE - Displays satellite images"
+msgstr "SATELLITE - affiche des images satellite"
+
+#: ../include/functions.php:446
+msgid ""
+"TERRAIN - Displays maps with physical features such as terrain and vegetation"
+msgstr ""
+"TERRAIN - d'afficher les cartes avec des caractéristiques physiques comme le "
+"terrain et la végétation"
+
+#: ../include/functions.php:447
+msgid ""
+"HYBRID - Displays a transparent layer of major streets on satellite images"
+msgstr ""
+"HYBRIDE - Affiche une couche transparente de rues principales sur les images "
+"satellites"
+
+#: ../include/functions.php:452
+msgid "Map language:"
+msgstr "Langue de la carte:"
+
+#: ../include/functions.php:456
+msgid "Allow drag the map:"
+msgstr "Autoriser traînée la carte"
+
+#: ../include/functions.php:463
+msgid "Display route:"
+msgstr "Afficher l'itinéraire:"
+
+#: ../include/functions.php:465
+msgid "Draws the route between the points in the same post"
+msgstr "Dessine le trajet entre les points dans le même article"
+
+#: ../include/functions.php:476
+msgid "Travel mode:"
+msgstr "Mode de transport:"
+
+#: ../include/functions.php:488
+msgid "Display map in post/page:"
+msgstr "Afficher la carte sur l'article/la page:"
+
+#: ../include/functions.php:491
+msgid "as icon"
+msgstr "en icône"
+
+#: ../include/functions.php:492
+msgid "as full map"
+msgstr "en carte"
+
+#: ../include/functions.php:498
+msgid "Show info bubbles:"
+msgstr "Afficher les infos bulles:"
+
+#: ../include/functions.php:500
+msgid "Display the bubbles associated to the points"
+msgstr "Afficher les bulles associées aux points"
+
+#: ../include/functions.php:505
+msgid "Display a bubble by default:"
+msgstr "Afficher une bulle par défaut:"
+
+#: ../include/functions.php:507
+msgid "Display a bubble opened by default"
+msgstr "Afficher une bulle ouverte par défaut"
+
+#: ../include/functions.php:512
+msgid "Display the Panoramio layer:"
+msgstr "Afficher le calque Panoramio:"
+
+#: ../include/functions.php:514
+msgid "Display a layer with photos published in Panoramio"
+msgstr "Afficher le calque avec des photos publiées dans Panoramio"
+
+#: ../include/functions.php:519
+msgid "Display a bundle of points in the same area, like a cluster:"
+msgstr "Afficher un faisceau de points dans la même zone, en groupe:"
+
+#: ../include/functions.php:521
+msgid "Displays the number of points in the cluster"
+msgstr "Affiche le nombre de points dans le regroupement"
+
+#: ../include/functions.php:529
+msgid "Display the get directions link:"
+msgstr "Afficher le lien de directions:"
+
+#: ../include/functions.php:533
+msgid "Display a link at  bottom of infowindow to get directions"
+msgstr "Afficher un lien en bas de la fenêtre d'infos pour l'adresse"
+
+#: ../include/functions.php:538
+msgid "Display a link to Google Maps:"
+msgstr "Afficher un lien vers Google Maps:"
+
+#: ../include/functions.php:540
+msgid "Display a link at  bottom of infowindow to display on Google Maps"
+msgstr ""
+"Afficher un lien en bas de la fenêtre d'infos à afficher sur Google Maps"
+
+#: ../include/functions.php:545
+msgid "Display a link to street view:"
+msgstr "Afficher un lien vers Vue de la rue (Street View):"
+
+#: ../include/functions.php:547
+msgid ""
+"Display a link at bottom of infowindow to load the corresponding street view"
+msgstr ""
+"Afficher un lien en bas de la fenêtre d'infos pour charger la vue sur la rue "
+"correspondante"
+
+#: ../include/functions.php:552
+msgid "Display the user's location:"
+msgstr "Afficher l'emplacement de l'utilisateur:"
+
+#: ../include/functions.php:554
+msgid "Display an icon with the user's location on map"
+msgstr "Afficher une icône avec l'emplacement de l'utilisateur sur la carte"
+
+#: ../include/functions.php:559
+msgid "Title of user's location:"
+msgstr "Titre de l'emplacement de l'utilisateur:"
+
+#: ../include/functions.php:561
+msgid "Title of user's location"
+msgstr "Titre de l'emplacement de l'utilisateur"
+
+#: ../include/functions.php:569
+msgid "Options"
+msgstr "Options"
+
+#: ../include/functions.php:572
+msgid "Display the street view control"
+msgstr "Afficher le moyen de contrôle de la vue de la rue"
+
+#: ../include/functions.php:574
+msgid "Enable mouse wheel zoom"
+msgstr "Activer zoom molette de la souris"
+
+#: ../include/functions.php:576
+msgid "Enable zoom/pan controls"
+msgstr "Activer le contrôle zoom/panoramique"
+
+#: ../include/functions.php:578
+msgid "Enable map type controls (Map, Satellite, or Hybrid)"
+msgstr "Activer le contrôle de type de carte (carte, satellite ou hybride)"
+
+#: ../include/functions.php:583
+msgid "Enter the number of posts to display on the map"
+msgstr "Entrez le nombre d'articles à afficher sur la carte"
+
+#: ../include/functions.php:587
+msgid "Allow stylize the maps:"
+msgstr "Autoriser de modifier le  style des cartes:"
+
+#: ../include/functions.php:597
+msgid ""
+"If you want change the maps' styles, be sure to know how to create a JSON "
+"structure with the map's styles"
+msgstr ""
+"Si vous voulez changer les styles des cartes , assurez-vous de savoir "
+"comment créer une structure JSON avec les styles de la carte"
+
+#: ../include/functions.php:604
+msgid "Display the map's legend:"
+msgstr "Afficher la légende de la carte:"
+
+#: ../include/functions.php:610
+msgid "Select the taxonomy to display on legend:"
+msgstr "Sélectionnez la taxonomie pour afficher sur la légende:"
+
+#: ../include/functions.php:616
+msgid "Select a taxonomy"
+msgstr "Sélectionnez une taxonomie"
+
+#: ../include/functions.php:627
+msgid "Enter a title for legend:"
+msgstr "Entrez un titre pour la légende:"
+
+#: ../include/functions.php:633
+msgid "Enter a classname to be applied to the legend:"
+msgstr "Entrez un nom de classe à appliquer à la légende:"
+
+#: ../include/functions.php:654
+msgid "Map point description"
+msgstr "Description d'un point sur la carte"
+
+#: ../include/functions.php:657
+msgid "Location name:"
+msgstr "Nom du lieu:"
+
+#: ../include/functions.php:663
+msgid "Location description:"
+msgstr "Description du lieu:"
+
+#: ../include/functions.php:672
+msgid "Select an images to attach to the point: "
+msgstr "Sélectionnez une image à associer au point:"
+
+#: ../include/functions.php:686
+msgid "Address:"
+msgstr "Adresse (inclure le pays):"
+
+#: ../include/functions.php:692
+msgid "Latitude:"
+msgstr "Latitude:"
+
+#: ../include/functions.php:698
+msgid "Longitude:"
+msgstr "Longitude:"
+
+#: ../include/functions.php:704
+msgid "Verify"
+msgstr "Vérifier"
+
+#: ../include/functions.php:706
+msgid ""
+"Verify this latitude and longitude using Geocoding. This could overwrite the "
+"point address."
+msgstr ""
+"Vérifiez cette latitude et la longitude en utilisant le Géocodage . Cela "
+"pourrait écraser l'adresse de point."
+
+#: ../include/functions.php:706
+msgid "Required: Press the button \"verify\" after complete the address."
+msgstr ""
+"Obligatoire: Appuyez sur le bouton \"Vérifier\" après l'adresse complète."
+
+#: ../include/functions.php:714
+msgid ""
+"To correct the latitude and longitud directly on MAP, type the address and "
+"press the Verify button."
+msgstr ""
+"Pour corriger la latitude et LONGITUD directement sur MAP, tapez l'adresse "
+"et appuyez sur le bouton Vérifier."
+
+#: ../include/functions.php:728
+msgid "Add/Update Point"
+msgstr "Ajouter/Mettre à jour Point"
+
+#: ../include/functions.php:745 ../include/functions.php:1041
+msgid ""
+"For more information go to the <a href=\"http://wordpress.dwbooster.com/"
+"content-tools/codepeople-post-map\" target=\"_blank\">CodePeople Post Map</"
+"a> plugin page"
+msgstr ""
+"Pour plus de renseignements, visitez le plugin <a href=\"http://wordpress."
+"dwbooster.com/content-tools/codepeople post-map\" target=\"_blank\"> "
+"CodePeople Post Map"
+
+#: ../include/functions.php:748
+msgid "To insert a map in the post follow the steps below"
+msgstr "Pour insérer une carte dans l'article, suivez les étapes ci-dessous"
+
+#: ../include/functions.php:751
+msgid ""
+"Enter the point's information (the latitude and longitude are required, but "
+"are obtained pressing the \"verify\" button after type the address"
+msgstr ""
+"Entrez les informations du point (la latitude et la longitude sont "
+"obligatoires , mais on les obtient en appuyant sur le bouton \"vérifier\" "
+"après avoir entré l'adresse)"
+
+#: ../include/functions.php:752
+msgid ""
+"Insert the shortcode in the post's content pressing the \"insert the map tag"
+"\" button"
+msgstr ""
+"Insérer le code dans le contenu du message en appuyant sur le \"insérer le "
+"Shortcode de la carte\""
+
+#: ../include/functions.php:753
+msgid ""
+"If you want to use specific settings just for this map, press the \"Show/"
+"Hide Map's Options\" button, and modifies the settings for this map"
+msgstr ""
+"Si vous voulez utiliser les paramètres spécifiques juste pour cette carte , "
+"cochez la case  \"Utiliser les paramètres particuliers pour cette carte:\" , "
+"et modifiez les paramètres de cette carte"
+
+#: ../include/functions.php:754
+msgid ""
+"Don't forget to press the \"Update\" button for save the post and map data"
+msgstr ""
+"N'oubliez pas d'appuyer sur le bouton \"mise à jour\" pour enregistrer les "
+"données de l'article et la carte."
+
+#: ../include/functions.php:757
+msgid "Map points"
+msgstr "Points de la carte"
+
+#: ../include/functions.php:784
+msgid ""
+"To insert this map in a post/page, press the <strong>\"insert the map tag\"</"
+"strong> button and save the post/page modifications."
+msgstr ""
+"Pour insérer cette carte dans un article ou une page, appuyez sur la <strong "
+">\" insérer le Shortcode de la carte\" </strong> et enregistrer la "
+"publication/page modifications."
+
+#: ../include/functions.php:791
+msgid "Do you want display a <strong>shape</strong> on map?"
+msgstr "Vous voulez afficher une <strong>forme</strong> sur la carte?"
+
+#: ../include/functions.php:803
+msgid "stroke Weight: "
+msgstr "course Poids:"
+
+#: ../include/functions.php:813
+msgid "Fill Color: "
+msgstr "Couleur de remplissage:"
+
+#: ../include/functions.php:824
+msgid "Fill Opacity: "
+msgstr "Remplissez Opacité:"
+
+#: ../include/functions.php:832
+msgid "Use a number between 0 and 1, 0 is transparent. "
+msgstr "Utilisez un nombre entre 0 et 1 , 0 est transparent."
+
+#: ../include/functions.php:850
+msgid "If you want to display the map in page / post:"
+msgstr "Si vous voulez afficher la carte dans la page ou l'article:"
+
+#: ../include/functions.php:851
+msgid "Insert the map tag"
+msgstr "Insérer le Shortcode de la carte"
+
+#: ../include/functions.php:867
+msgid "To display the points that belong to any category"
+msgstr "Pour afficher les points qui appartiennent à une catégorie"
+
+#: ../include/functions.php:976
+msgid "Settings Updated"
+msgstr "Paramètres Mise à jour"
+
+#: ../include/functions.php:987
+msgid ""
+"Generate points dynamically from geolocation information included on images, "
+"when images are uploaded to WordPress:"
+msgstr ""
+"Générer des points dynamiquement à partir des informations de "
+"géolocalisation inclus sur les images , lorsque les images sont téléchargées "
+"sur WordPress:"
+
+#: ../include/functions.php:990
+msgid ""
+"The geolocation information is added to the images from your mobiles or "
+"cameras, if they have associated GPS devices"
+msgstr ""
+"Les informations de géolocalisation est ajouté aux images de vos mobiles ou "
+"de caméras , se ils ont associé les appareils GPS"
+
+#: ../include/functions.php:995
+msgid ""
+"Generate points dynamically from geolocation information included on posts:"
+msgstr ""
+"Générer des points dynamiquement à partir des informations de "
+"géolocalisation inclus dans les messages:"
+
+#: ../include/functions.php:998
+msgid ""
+"The geolocation information is added to the post from WordPress app in your "
+"mobile"
+msgstr ""
+"Les informations de géolocalisation est ajouté au article de WordPress dans "
+"votre application mobile"
+
+#: ../include/functions.php:1003
+msgid "Use points information in search results:"
+msgstr "Utilisez des points d'information dans les résultats de recherche:"
+
+#: ../include/functions.php:1009
+msgid "Highlight post when mouse move over related point on map:"
+msgstr ""
+"Mettre en évidence l'article lorsque la souris survole le point concerné sur "
+"la carte:"
+
+#: ../include/functions.php:1015
+msgid "Highlight class:"
+msgstr "Classe pour  surligner et mettre en évidence"
+
+#: ../include/functions.php:1021
+msgid "Allow to associate a map to the post types:"
+msgstr "Permettre d'associer une carte pour les types d'article:"
+
+#: ../include/functions.php:1036
+msgid "Posts and Pages are selected by default"
+msgstr "Articles et Pages sont sélectionnés par défaut"
+
+#: ../include/functions.php:1042
+msgid "Update Settings"
+msgstr "Mise à Jour"
+
+#: ../include/functions.php:1585
+msgid "Get directions"
+msgstr "Itinéraire"
+
+#: ../include/functions.php:1586
+msgid "Display on map"
+msgstr "Afficher sur la carte"
+
+#: ../include/functions.php:1587
+msgid "Display street view"
+msgstr "Affichage vue sur la rue"
+
+#: ../include/functions.php:1688
+msgid "Request custom changes"
+msgstr "Demande de Modifications personnalisées"
+
+#: ../include/functions.php:1745
+msgid "Title:"
+msgstr "Titre:"
+
+#: ../include/functions.php:1747
+msgid "Enter the map's attributes:"
+msgstr "Entrez les attributs de la carte:"
+
+#: ../include/functions.php:1750
+msgid ""
+"To display the points that belong to an category, use the attribute: cat="
+"\"2\", where 2 is the category's ID. To display the points that belong to "
+"multiple categories, separate each one by the comma symbol: cat=\"2,5,8\". "
+"To display all points on website, use the value -1 for category's ID, cat="
+"\"-1\". If you want to display only the points associated with the current "
+"post, don't use the \"cat\" attribute."
+msgstr ""
+"Pour afficher les points qui appartiennent à une catégorie , utiliser "
+"l'attribut: cat = \"2\", où 2 est l'ID de la catégorie. Pour afficher les "
+"points qui appartiennent à plusieurs catégories, separer par les catégories "
+"par des virgules: cat =\"2,5,8\".  Pour afficher tous les points sur le "
+"site, utilisez la valeur -1 pour l'ID de la catégorie, cat = \"- 1\". Si "
+"vous souhaitez afficher uniquement les points associés par le article "
+"actuel, ne pas utiliser le \"chat\" attribut."
+
+#~ msgid ""
+#~ "The feature is available only for the commercial version of plugin. <a "
+#~ "href=\"http://wordpress.dwbooster.com/content-tools/codepeople-post-"
+#~ "map#download\">Click Here</a>"
+#~ msgstr ""
+#~ "cette option est fournie par la version commerciale de ce plugin. <a href "
+#~ "= \"http://wordpress.dwbooster.com/content-tools/codepeople-post-"
+#~ "map#download\" target = \"_blank\">Cliquez ici</a>."
+
+#~ msgid ""
+#~ "Multiple points in the same Post/Page are available only in the <a href="
+#~ "\"http://wordpress.dwbooster.com/content-tools/codepeople-post-"
+#~ "map#download\" target=\"_blank\">advanced version</a>."
+#~ msgstr ""
+#~ "Insérer plusieurs points dans le même article/page n'est disponible que "
+#~ "dans la <a href = \"http://wordpress.dwbooster.com/content-tools/"
+#~ "codepeople-post-map#download\" target = \"_blank\">version commerciale</"
+#~ "a>."
+
+#~ msgid "[ + more information]"
+#~ msgstr "[en savoir plus]"
